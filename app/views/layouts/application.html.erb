@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Udemy</title>
+    <title>Ann's dumb blog</title>
+    <meta charset="utf-8">
     <%= csrf_meta_tags %>
-
+    <%= stylesheet_link_tag "themify-icons.css", media: 'all' %>
+    <%= stylesheet_link_tag "flexslider.css" , media: 'all'%>
+    <%= stylesheet_link_tag "lightbox.min.css", media: 'all' %>
+    <%= stylesheet_link_tag "ytplayer.css", media: 'all' %>
+    <%= stylesheet_link_tag "theme.css", media: 'all'%>
+    <%= stylesheet_link_tag "theme.csscustom.css" ,media: 'all'%>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= yield %>
+    <%= render 'layouts/navigation' %>
     <%= render 'layouts/messeges' %>
+    <%= yield %>
 
   </body>
 </html>

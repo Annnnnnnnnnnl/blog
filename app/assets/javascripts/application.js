@@ -11,6 +11,16 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.min
+//= require flexslider.min
+//= require lightbox.min
+//= require masonry.min
+//= twitterfetcher.min
+//= require spectragram.min
+//= require ytplayer.min
+//= require smooth-scroll.min
+//= require parallax.js
+//= require scripts.js
 //= require jquery_ujs
 //=require bootstrap-sprockets
 //= require turbolinks
